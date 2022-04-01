@@ -12,7 +12,7 @@ from django.views.generic import CreateView
 
 
 def index(request):
-    return render(request,'base.html')
+    return render(request,'app_users/index.html')
 
 
 def register(request):
