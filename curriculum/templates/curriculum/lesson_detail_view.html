@@ -26,9 +26,7 @@
         <hr style="color:#ff5722;">
 
         <!-- description -->
-        <h4 class="white-text my-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Deleniti
-                  consequuntur.</h4>
+        <h4 class="white-text my-4">{{lessons.description}}</h4>
   </div>
 </header>
 {% endblock %}
@@ -38,7 +36,7 @@
 <section class="text-center">
     <h2 class="mb-0 mt-5 font-weight-bold" style="color:#ff5722;">Lecture Details</h2>
     <div class="row d-flex justify-content-center mb-3">
-      <blockquote class="blockquote mt-0">
+      <blockquote class="blockquote mt-3">
         <footer class="blockquote-footer">Created on {{lessons.created_at}} by <cite title="Source Title">{{lessons.created_by}}</cite></footer>
         </blockquote>
     </div>
@@ -135,7 +133,7 @@
       {% for comment in lessons.comments.all %}
       <div class="col-md-8 mt-2 mb-2">
                       <div class="media border p-3">
-                          <img src="{% static 'Images/user_avatar.png' %}" alt="John Doe" class="mr-3 mt-3 rounded-circle" style="width:60px;">
+                          <img src="{% static 'Images/user_avatar.png' %}" alt="avatar image" class="mr-3 mt-3 rounded-circle" style="width:60px;">
                           <div class="media-body">
                                     <h4>{{comment.author}} <small><i>Posted on {{comment.date_added}}</i></small></h4>
                                     <p>{{comment.body}}</p>

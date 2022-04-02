@@ -22,16 +22,14 @@
           <hr style="color:#ff5722;">
 
           <!-- description -->
-          <h4 class="white-text my-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Deleniti
-                    consequuntur.</h4>
+          <h4 class="white-text my-4">{{standards.name}}</h4>
     </div>
   </header>
   {% endblock %}
 
   {% block content %}
   <section id="best-features" class="text-center">
-                <h2 class="mb-5 mt-5 font-weight-bold" style="color:#ff5722;">Master The Subject</h2>
+                <h2 class="mb-5 mt-5 font-weight-bold" style="color:#ff5722;">Master The {{standards.name}}</h2>
                 <!-- class row for description-->
                 <div class="row d-flex justify-content-center mb-4">
                   <!-- class column -->
@@ -105,7 +103,7 @@
                             </div>
                             <div class="col-md-8">
                               <div class="card-body">
-                                <h4 class="card-title" style="color:#ff5722;">{{subject.name}}</h4>
+                                <h4 class="card-title" style="color:#62619c;">{{subject.name}}</h4>
                                 <p class="card-text">{{subject.description|truncatechars:75}}</p>
                                 <p class="card-text"><small class="text-muted"></small></p>
                                     <a href="{% url 'curriculum:lesson_list' slug=subject.slug standard=standards.slug %}"><button class="button-les"> <span> Get Lessons</span></button></a>
