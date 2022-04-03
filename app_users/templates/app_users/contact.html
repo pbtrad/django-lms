@@ -40,15 +40,19 @@
                 </div>
               </div>
 </section>
-              <div class="row justify content center">
+              <div class="row justify-content-center">
               <div class="col-md-12">
-                  <form method="post">
+                <div class="input-group mb-3">
+                  <form method="post" class="mx-auto">
                     <div class="form-group">
                       {% csrf_token %}
                       {{form|crispy}}
+                      <div class="col-md-12 text-center mt-3">
                       <input type="submit" value="Submit Response" class="btn btn-success btn-lg btn-block">
+                      </div>
                     </div>
                   </form>
+                  </div>
               </div>
               </div>
 
