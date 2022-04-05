@@ -100,6 +100,38 @@ hr{
     -o-background-size: cover;
     background-size: cover;
 }
+
+#contact-intro {
+  background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://besthqwallpapers.com/Uploads/15-1-2021/152046/thumb2-piano-keys-musical-notes-piano-concepts-piano-playing-musical-instruments.jpg")no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#lesson_detail-intro {
+  background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://besthqwallpapers.com/Uploads/15-1-2021/152046/thumb2-piano-keys-musical-notes-piano-concepts-piano-playing-musical-instruments.jpg")no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#lesson_list-intro {
+  background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://besthqwallpapers.com/Uploads/28-3-2018/46181/thumb2-4k-piano-guitar-musical-instruments-close-up.jpg")no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#subject-intro {
+  background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://besthqwallpapers.com/Uploads/12-4-2018/48020/thumb2-notes-piano-keys-pianoforte-pianos-musical-instruments.jpg")no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 /* breadcrumb class */
 /* Style the list */
 ul.breadcrumb {
