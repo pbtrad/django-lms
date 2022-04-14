@@ -6,7 +6,7 @@ header,
 }
 
 #intro {
-    background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://besthqwallpapers.com/Uploads/16-5-2021/168509/thumb2-violin-music-concepts-creative-3d-art-sheet-music.jpg")no-repeat center center fixed;
+    background:url("https://besthqwallpapers.com/Uploads/16-5-2021/168509/thumb2-violin-music-concepts-creative-3d-art-sheet-music.jpg")no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
